@@ -357,6 +357,7 @@ class ConfigLoader(object):
     def create_umapi_options(self, connector_config_sources):
         options = self.get_dict_from_sources(connector_config_sources)
         options['test_mode'] = self.options['test_mode']
+        options['bypass_authentication_mode'] = self.options['bypass_authentication_mode']
         enterprise_section = options.get('enterprise')
         if isinstance(enterprise_section, dict):
             org_id = enterprise_section.get('org_id')

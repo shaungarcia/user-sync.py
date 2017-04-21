@@ -85,6 +85,10 @@ def process_args():
                              "When using this option, you must also specify what you want done with Adobe-only "
                              "users by also including --adobe-only-user-action and one of its arguments",
                         metavar='input_path', dest='stray_list_input_path')
+    parser.add_argument('--bypass-authentication-mode',
+                        help='authentication with the Adobe server is skipped. This is used for testing only.',
+                        default=False,
+                        action='store_true', dest='bypass_authentication_mode')
     return parser.parse_args()
 
 
@@ -215,6 +219,7 @@ def create_config_loader_options(args):
     :return: the configured options for the config loader.
     '''
     config_options = {
+        'bypass_authentication_mode': args.bypass_authentication_mode,
         'delete_strays': False,
         'directory_connector_module_name': None,
         'directory_connector_overridden_options': None,
