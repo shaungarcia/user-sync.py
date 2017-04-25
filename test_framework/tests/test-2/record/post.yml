@@ -1,0 +1,108 @@
+interactions:
+- request:
+    body: !!python/unicode '[{"do": [{"add": {"product": ["default acrobat pro dc
+      configuration"]}}], "requestID": "action_1", "user": "cce1@ensemble.ca"}]'
+    headers:
+      Content-Length: ['127']
+      accept: [application/json]
+      accept-encoding: ['gzip, deflate']
+      authorization: [Bearer eyJ4NXUiOiJpbXNfbmExLWtleS0xLmNlciIsImFsZyI6IlJTMjU2In0.eyJmZyI6IlJMNDZBUFlCUElIUUFBQUFBQUFBQUFDQUFBPT09PT09IiwiYXMiOiJpbXMtbmExIiwiYyI6Ik5XRGw2NHM1RG5aSkpqbjBqa1EwK3c9PSIsInVzZXJfaWQiOiIwRTNCNkE5OTU4MDZDNEJFMEE0OTVDQzdAdGVjaGFjY3QuYWRvYmUuY29tIiwibW9pIjoiOTRiZDUzZGYiLCJzY29wZSI6Im9wZW5pZCx1c2VyX21hbmFnZW1lbnRfc2RrLEFkb2JlSUQiLCJjcmVhdGVkX2F0IjoiMTQ5MzE2MDk5MTUxNSIsImlkIjoiMTQ5MzE2MDk5MTUxNS1kNDVmZmM3Yi0zMzRjLTQ5MGQtYjgyYy1mMzI4MWFkNDJiMjMiLCJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwiY2xpZW50X2lkIjoiNDgzOTQ4NGZhOTAxNDdkNmJiODhmOGRiMGM3OTFmZjEifQ.b3pE-cBaEoHNHjWu0-fjQ5NAwLR2LIndiBctp0Fl2p0b7XcFOdGj1RFA4rZ4SAtaLmRrmnGoW446NPhJUv49qqEscrgt0dknfIOQQzhbIIKcdosuR-d3eTo53iMILNuXguJeV7gcIBiB-axSELrmmqJyWeldCWTJlpFwIQ3q2YssEHdD87rx3XLNk3wvUGWs1qPuvGWKebM2pWFdjxaHdXMU5fS0V5yIf-5S35QbCVS2PeIBhah0LCXNkIe4LbEe4mWips801GBXqHkiAuelh31igPXAwsoIBDhIVfqnJUTPqXl_TjI-qsNgMwgMSSc5cIPQfq0RU6wx3szxRkZb4g]
+      connection: [keep-alive]
+      content-type: [application/json]
+      cookie: [AWSELB=D76BDFED16399693AEB011A9296087A3745D7B73361771968954DFCBD14BA47CF0A6CD81095A5E3F1A333662BEFAB7A16DC244B4E3DA5B3F84ECF102F88E58934FA94A25F5]
+      host: [usermanagement.adobe.io]
+      user-agent: ['user-sync/2.0 umapi-client/2.3 Python/2.7.10 (Darwin Kernel Version
+          14.5.0: Fri Feb 17 10:33:20 PST 2017; root:xnu-2782.50.9.1.1~1/RELEASE_X86_64)']
+      x-api-key: [4839484fa90147d6bb88f8db0c791ff1]
+    method: POST
+    uri: https://usermanagement.adobe.io/v2/usermanagement/action/210DB41957FFDC210A495E53@AdobeOrg
+  response:
+    body: {string: !!python/unicode '{"completed":1,"notCompleted":0,"completedInTestMode":0,"result":"success"}'}
+    headers:
+      connection: [keep-alive]
+      content-length: ['75']
+      content-type: [application/json]
+      date: ['Tue, 25 Apr 2017 22:56:34 GMT']
+      server: [APIP]
+      vary: [Accept-Encoding]
+      x-powered-by: [Undertow/1]
+      x-request-id: [a7nCTf4lTvj3wyRhJzhArJ9B6RHcelFH, a7nCTf4lTvj3wyRhJzhArJ9B6RHcelFH]
+    status: {code: 200, message: OK}
+- request:
+    body: !!python/unicode '[{"do": [{"remove": {"product": ["default acrobat pro
+      dc configuration"]}}], "requestID": "action_2", "user": "fed1@ensemble-systems.com"},
+      {"do": [{"remove": {"product": ["default acrobat pro dc configuration"]}}],
+      "requestID": "action_3", "user": "fed2@ensemble-systems.com"}, {"do": [{"remove":
+      {"product": ["default acrobat pro dc configuration"]}}], "requestID": "action_4",
+      "user": "cce6@ensemble.ca"}, {"do": [{"remove": {"product": ["default acrobat
+      pro dc configuration"]}}], "requestID": "action_5", "user": "imak@ensemble-systems.com"},
+      {"do": [{"remove": {"product": ["default acrobat pro dc configuration"]}}],
+      "requestID": "action_6", "user": "ccf1@ensemble-systems.com"}, {"do": [{"remove":
+      {"product": ["default acrobat pro dc configuration"]}}], "requestID": "action_7",
+      "user": "cce1010101@ensemble.ca"}, {"do": [{"remove": {"product": ["default
+      acrobat pro dc configuration"]}}], "requestID": "action_8", "user": "cce5@ensemble.ca"},
+      {"do": [{"remove": {"product": ["default acrobat pro dc configuration"]}}],
+      "requestID": "action_9", "user": "cce0@ensemble.ca"}, {"do": [{"remove": {"product":
+      ["default acrobat pro dc configuration"]}}], "requestID": "action_10", "user":
+      "cce7@ensemble.ca"}, {"do": [{"remove": {"product": ["default acrobat pro dc
+      configuration"]}}], "requestID": "action_11", "user": "cce3@ensemble.ca"}]'
+    headers:
+      Content-Length: ['1344']
+      accept: [application/json]
+      accept-encoding: ['gzip, deflate']
+      authorization: [Bearer eyJ4NXUiOiJpbXNfbmExLWtleS0xLmNlciIsImFsZyI6IlJTMjU2In0.eyJmZyI6IlJMNDZBUFlCUElIUUFBQUFBQUFBQUFDQUFBPT09PT09IiwiYXMiOiJpbXMtbmExIiwiYyI6Ik5XRGw2NHM1RG5aSkpqbjBqa1EwK3c9PSIsInVzZXJfaWQiOiIwRTNCNkE5OTU4MDZDNEJFMEE0OTVDQzdAdGVjaGFjY3QuYWRvYmUuY29tIiwibW9pIjoiOTRiZDUzZGYiLCJzY29wZSI6Im9wZW5pZCx1c2VyX21hbmFnZW1lbnRfc2RrLEFkb2JlSUQiLCJjcmVhdGVkX2F0IjoiMTQ5MzE2MDk5MTUxNSIsImlkIjoiMTQ5MzE2MDk5MTUxNS1kNDVmZmM3Yi0zMzRjLTQ5MGQtYjgyYy1mMzI4MWFkNDJiMjMiLCJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwiY2xpZW50X2lkIjoiNDgzOTQ4NGZhOTAxNDdkNmJiODhmOGRiMGM3OTFmZjEifQ.b3pE-cBaEoHNHjWu0-fjQ5NAwLR2LIndiBctp0Fl2p0b7XcFOdGj1RFA4rZ4SAtaLmRrmnGoW446NPhJUv49qqEscrgt0dknfIOQQzhbIIKcdosuR-d3eTo53iMILNuXguJeV7gcIBiB-axSELrmmqJyWeldCWTJlpFwIQ3q2YssEHdD87rx3XLNk3wvUGWs1qPuvGWKebM2pWFdjxaHdXMU5fS0V5yIf-5S35QbCVS2PeIBhah0LCXNkIe4LbEe4mWips801GBXqHkiAuelh31igPXAwsoIBDhIVfqnJUTPqXl_TjI-qsNgMwgMSSc5cIPQfq0RU6wx3szxRkZb4g]
+      connection: [keep-alive]
+      content-type: [application/json]
+      cookie: [AWSELB=D76BDFED16399693AEB011A9296087A3745D7B73361771968954DFCBD14BA47CF0A6CD81095A5E3F1A333662BEFAB7A16DC244B4E3DA5B3F84ECF102F88E58934FA94A25F5]
+      host: [usermanagement.adobe.io]
+      user-agent: ['user-sync/2.0 umapi-client/2.3 Python/2.7.10 (Darwin Kernel Version
+          14.5.0: Fri Feb 17 10:33:20 PST 2017; root:xnu-2782.50.9.1.1~1/RELEASE_X86_64)']
+      x-api-key: [4839484fa90147d6bb88f8db0c791ff1]
+    method: POST
+    uri: https://usermanagement.adobe.io/v2/usermanagement/action/210DB41957FFDC210A495E53@AdobeOrg
+  response:
+    body: {string: !!python/unicode '{"completed":10,"notCompleted":0,"completedInTestMode":0,"result":"success"}'}
+    headers:
+      connection: [keep-alive]
+      content-length: ['76']
+      content-type: [application/json]
+      date: ['Tue, 25 Apr 2017 22:56:35 GMT']
+      server: [APIP]
+      vary: [Accept-Encoding]
+      x-powered-by: [Undertow/1]
+      x-request-id: [829g7G7EnQeXuv0A67gOlflQSYqMRtTI, 829g7G7EnQeXuv0A67gOlflQSYqMRtTI]
+    status: {code: 200, message: OK}
+- request:
+    body: !!python/unicode '[{"do": [{"remove": {"product": ["default acrobat pro
+      dc configuration"]}}], "requestID": "action_12", "user": "cce4@ensemble.ca"},
+      {"do": [{"remove": {"product": ["default acrobat pro dc configuration"]}}],
+      "requestID": "action_13", "user": "cce2@ensemble.ca"}, {"do": [{"remove": {"product":
+      ["default acrobat pro dc configuration"]}}], "requestID": "action_14", "user":
+      "fed3@ensemble-systems.com"}]'
+    headers:
+      Content-Length: ['402']
+      accept: [application/json]
+      accept-encoding: ['gzip, deflate']
+      authorization: [Bearer eyJ4NXUiOiJpbXNfbmExLWtleS0xLmNlciIsImFsZyI6IlJTMjU2In0.eyJmZyI6IlJMNDZBUFlCUElIUUFBQUFBQUFBQUFDQUFBPT09PT09IiwiYXMiOiJpbXMtbmExIiwiYyI6Ik5XRGw2NHM1RG5aSkpqbjBqa1EwK3c9PSIsInVzZXJfaWQiOiIwRTNCNkE5OTU4MDZDNEJFMEE0OTVDQzdAdGVjaGFjY3QuYWRvYmUuY29tIiwibW9pIjoiOTRiZDUzZGYiLCJzY29wZSI6Im9wZW5pZCx1c2VyX21hbmFnZW1lbnRfc2RrLEFkb2JlSUQiLCJjcmVhdGVkX2F0IjoiMTQ5MzE2MDk5MTUxNSIsImlkIjoiMTQ5MzE2MDk5MTUxNS1kNDVmZmM3Yi0zMzRjLTQ5MGQtYjgyYy1mMzI4MWFkNDJiMjMiLCJ0eXBlIjoiYWNjZXNzX3Rva2VuIiwiZXhwaXJlc19pbiI6Ijg2NDAwMDAwIiwiY2xpZW50X2lkIjoiNDgzOTQ4NGZhOTAxNDdkNmJiODhmOGRiMGM3OTFmZjEifQ.b3pE-cBaEoHNHjWu0-fjQ5NAwLR2LIndiBctp0Fl2p0b7XcFOdGj1RFA4rZ4SAtaLmRrmnGoW446NPhJUv49qqEscrgt0dknfIOQQzhbIIKcdosuR-d3eTo53iMILNuXguJeV7gcIBiB-axSELrmmqJyWeldCWTJlpFwIQ3q2YssEHdD87rx3XLNk3wvUGWs1qPuvGWKebM2pWFdjxaHdXMU5fS0V5yIf-5S35QbCVS2PeIBhah0LCXNkIe4LbEe4mWips801GBXqHkiAuelh31igPXAwsoIBDhIVfqnJUTPqXl_TjI-qsNgMwgMSSc5cIPQfq0RU6wx3szxRkZb4g]
+      connection: [keep-alive]
+      content-type: [application/json]
+      cookie: [AWSELB=D76BDFED16399693AEB011A9296087A3745D7B73361771968954DFCBD14BA47CF0A6CD81095A5E3F1A333662BEFAB7A16DC244B4E3DA5B3F84ECF102F88E58934FA94A25F5]
+      host: [usermanagement.adobe.io]
+      user-agent: ['user-sync/2.0 umapi-client/2.3 Python/2.7.10 (Darwin Kernel Version
+          14.5.0: Fri Feb 17 10:33:20 PST 2017; root:xnu-2782.50.9.1.1~1/RELEASE_X86_64)']
+      x-api-key: [4839484fa90147d6bb88f8db0c791ff1]
+    method: POST
+    uri: https://usermanagement.adobe.io/v2/usermanagement/action/210DB41957FFDC210A495E53@AdobeOrg
+  response:
+    body: {string: !!python/unicode '{"completed":3,"notCompleted":0,"completedInTestMode":0,"result":"success"}'}
+    headers:
+      connection: [keep-alive]
+      content-length: ['75']
+      content-type: [application/json]
+      date: ['Tue, 25 Apr 2017 22:56:37 GMT']
+      server: [APIP]
+      vary: [Accept-Encoding]
+      x-powered-by: [Undertow/1]
+      x-request-id: [94AkR2CTdZFAb4YgunAXuPLyjW1EMjXT, 94AkR2CTdZFAb4YgunAXuPLyjW1EMjXT]
+    status: {code: 200, message: OK}
+version: 1
